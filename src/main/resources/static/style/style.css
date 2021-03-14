@@ -14,35 +14,43 @@
 .header{
     text-align: center;
     color: cornsilk;
-    font-family: "Lucida Console";
-    font-size: 15px;
+    font-family: "Lucida Console sans serif";
+    font-size: 20px;
 }
 .header-nav a{
     justify-content: space-evenly;
-    text-align: center;
+
     color: cornsilk;
 }
 .about{
+    margin-top: 100px;
 
 
 
 }
 .flex-box{
     color: cornsilk;
-    height: 50vh;
     display: flex;
     margin-top: 120px;
-    margin-bottom: 93px;
+    flex-direction: initial;
+}
+.flex-box2{
     flex-direction: row;
 }
 
 
 
 .consumer-section{
+    color: cornsilk;
+    width: 5rem;
 }
 .company-section{
+    color: cornsilk;
+    width: 5rem;
 }
 .organisation-section{
+    color: cornsilk;
+    width: 5rem;
 }
 
 .footer-nav a{
@@ -55,7 +63,7 @@
 }
 .footer{
     color: cornsilk;
-  text-align: center;
+    text-align: center;
 
 
 
