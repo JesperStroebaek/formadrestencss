@@ -17,39 +17,36 @@
     font-family: "Lucida Console";
     font-size: 15px;
 }
-.header-nav{
+.header-nav a{
+    justify-content: space-evenly;
     text-align: center;
     color: cornsilk;
 }
+.about{
+
+
+
+}
 .flex-box{
+    color: cornsilk;
     height: 50vh;
-    border: 2px cornsilk;
     display: flex;
     margin-top: 120px;
     margin-bottom: 93px;
+    flex-direction: row;
 }
 
-.about{
-    justify-content: space-evenly;
-    width: 400px;
-    height: 1000px;
 
-
-}
 
 .consumer-section{
-
-
-
 }
 .company-section{
-
 }
 .organisation-section{
-
 }
 
-.footer{
+.footer-nav a{
+    color: cornsilk;
     text-align: center;
     height: 86px;
     bottom: 0px;
@@ -57,7 +54,10 @@
 
 }
 .footer{
-    position: fixed;
+    color: cornsilk;
+  text-align: center;
+
+
 
 }
 
