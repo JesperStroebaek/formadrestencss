@@ -4,7 +4,7 @@
 }
 
 .header{
-
+    position: sticky;
     height: 150px;
     position: fixed;
     width: 100%;
@@ -24,6 +24,7 @@
 }
 .about{
     margin-top: 100px;
+    position: center;
 
 
 
@@ -32,9 +33,10 @@
     color: cornsilk;
     display: flex;
     margin-top: 120px;
-    flex-direction: initial;
+    flex-direction: column;
 }
 .flex-box2{
+
     flex-direction: row;
 }
 
@@ -54,6 +56,7 @@
 }
 
 .footer-nav a{
+    position: sticky;
     color: cornsilk;
     text-align: center;
     height: 86px;
