@@ -29,31 +29,46 @@
 
 
 }
-.flex-box{
+.flex-box p{
+    margin-top: 4rem;
     color: cornsilk;
     display: flex;
-    margin-top: 120px;
-    flex-direction: column;
+    width: 100%
 }
 .flex-box2{
+    display: flex;
 
-    flex-direction: row;
 }
-
-
 
 .consumer-section{
+
+    text-align: left;
     color: cornsilk;
-    width: 5rem;
+    width: 220px;
 }
-.company-section{
-    color: cornsilk;
-    width: 5rem;
+.consumer-section p{
+    margin: -1rem
 }
+
 .organisation-section{
+    text-align: right;
     color: cornsilk;
-    width: 5rem;
+    width: 190px;
 }
+.organisation-section p{
+    margin: -1rem
+}
+
+.company-section{
+    text-align: center;
+    color: cornsilk;
+    width: 290px;
+    margin-top: 34
+}
+.company-section p{
+    margin: -1rem
+}
+
 
 .footer-nav a{
     position: sticky;
