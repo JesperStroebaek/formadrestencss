@@ -1,3 +1,64 @@
-.header{
-    align-self: auto;
+.body{
+    background-image: url("../img/formanresten1.jpg");
+    size: 1000px;
 }
+
+.header{
+
+    height: 150px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+}
+.header{
+    text-align: center;
+    color: cornsilk;
+    font-family: "Lucida Console";
+    font-size: 15px;
+}
+.header-nav{
+    text-align: center;
+    color: cornsilk;
+}
+.flex-box{
+    height: 50vh;
+    border: 2px cornsilk;
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 93px;
+}
+
+.about{
+    justify-content: space-evenly;
+    width: 400px;
+    height: 1000px;
+
+
+}
+
+.consumer-section{
+
+
+
+}
+.company-section{
+
+}
+.organisation-section{
+
+}
+
+.footer{
+    text-align: center;
+    height: 86px;
+    bottom: 0px;
+    width: 100%;
+
+}
+.footer{
+    position: fixed;
+
+}
+
+X
